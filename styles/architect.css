@@ -6,6 +6,8 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .text-light-gray {
@@ -31,6 +33,7 @@
     font-weight: 700;
     color: #131313;
 }
+
 
 /* header styles */
 header {
@@ -126,11 +129,18 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
+.facts .section-title , .text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .facts-card-container .card{
     border-radius: 8px;
     border: 2px solid #FF900E;
     text-align: center;
     padding: 30px;
+    margin-top: 10px;
 }
 
 .facts-card-container .card-stats{
@@ -146,6 +156,25 @@ main {
     margin-top: 5px;
 }
 
+/* sponsors styles here  */
+.sponsors{
+    text-align: center;
+}
+
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.sponsors-img-container img{
+    width: 150px;
+}
+.sponsors img{
+    margin-top: 10px;
+}
 
 /* responsive media queries */
 /* mobile devices */
